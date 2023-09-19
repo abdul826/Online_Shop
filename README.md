@@ -3,15 +3,9 @@ MERNSTACK Ecommerce Website by implementing redux tool-kit
 This project is part of my MERN Stack From Scratch | eCommerce Platform course. It is a full-featured shopping cart with PayPal & credit/debit payments.
 
 # Features
-# Usage
-# Env Variables
-# Install Dependencies (frontend & backend)
-# Run
-
-# Features
-Full featured shopping cart,
-Product reviews and ratings,
-Top products carousel,
+Full featured shopping cart.
+Product reviews and ratings.
+Top products carousel.
 Product pagination,
 Product search feature,
 User profile with orders,
