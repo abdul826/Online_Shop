@@ -7,6 +7,8 @@ import { toast } from 'react-toastify';
 import Message from '../components/Message';
 import Loader from '../components/Loader';
 import { useGetOrderDetailsQuery, usePayOrderMutation, useGetPayPalClientIdQuery, useDeliverOrderMutation } from '../slices/ordersApiSlice';
+import Meta from '../components/Meta';
+
 
 const OrderScreen = () => {
 
@@ -113,6 +115,7 @@ const OrderScreen = () => {
                 :
                 (
                     <>
+                    <Meta title="Order Page" />
                         <h1>Order {order._id}</h1>
                         <Row>
                             <Col md={8}>

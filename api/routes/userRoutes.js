@@ -9,6 +9,8 @@ router.get('/', protect,admin,getUsers)
 router.post('/register',registerUser);
 router.post('/logout',logoutUser);
 router.get('/profile',protect,getUserProfile).put('/profile',protect,updateUserProfile);
-router.delete('/:id',protect,admin,deleteUser).get(protect,admin,getUserByID).put(protect,admin,updateUser);
+router.delete('/:id',protect,admin,deleteUser);
+router.get('/:id', protect,admin,getUserByID);
+router.put('/:id',protect,admin,updateUser);
 
 export default router;
